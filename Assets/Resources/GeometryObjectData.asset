@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5ac74896972adf7a8101b7c17d93289, type: 3}
+  m_Name: GeometryObjectData
+  m_EditorClassIdentifier: 
+  clicksData:
+  - objectType: Capsule
+    minClicksCount: 0
+    maxClicksCount: 10
+    color: {r: 0.8679245, g: 0.024563909, b: 0.024563909, a: 0}
+  - objectType: Capsule
+    minClicksCount: 10
+    maxClicksCount: 20
+    color: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 0}
+  - objectType: Cube
+    minClicksCount: 0
+    maxClicksCount: 10
+    color: {r: 0.8936212, g: 0.9811321, b: 0.1295835, a: 0}
+  - objectType: Cube
+    minClicksCount: 10
+    maxClicksCount: 20
+    color: {r: 0, g: 0.8962264, b: 0, a: 0}
+  - objectType: Sphere
+    minClicksCount: 0
+    maxClicksCount: 10
+    color: {r: 0.11801352, g: 0.11801352, b: 0.9622642, a: 0}
+  - objectType: Sphere
+    minClicksCount: 10
+    maxClicksCount: 20
+    color: {r: 0.9704876, g: 0.047169805, b: 1, a: 0}
